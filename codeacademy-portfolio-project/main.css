@@ -1,0 +1,23 @@
+body {
+    float: none;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+.nav-bar li {
+    clear: both;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+}
+
+.footer p {
+    clear: both;
+}
