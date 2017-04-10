@@ -1,16 +1,37 @@
 body {
     float: none;
     margin: 0 auto;
+    background-image: url("http://kingofwallpapers.com/neutral-wallpaper/neutral-wallpaper-008.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .nav-bar {
+    margin-left: -0.5%;
     position: fixed;
-    z-index: 1;
-    background-color: white;
+    clear:both;
 }
 
-.nav-bar li {
-    clear: both;
+.nav-pills li {
+    z-index: 1;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5%;
+}
+
+.jumbotron {
+    background-image: url("https://phlow.github.io/feeling-responsive/images/unsplash_brooklyn-bridge_header.jpg");
+    background-size: cover;
+    padding-left: 100;
+    margin-left: -100;
+    
+}
+
+.thumbnail {
+    background-color: lightgoldenrodyellow;
+}
+
+.thumbnail:hover {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .footer {

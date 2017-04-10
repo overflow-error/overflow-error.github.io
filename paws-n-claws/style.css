@@ -1,0 +1,23 @@
+body {
+    background-color: yellow;
+}
+
+#nav-bar {
+    background-color: #FFFFFF;
+    position: fixed;
+    margin-left: -10%;
+    width: 120%;
+    margin-top: -1%;
+}
+
+#nav-content {
+    margin-left: 10%;
+    margin-top: 0.5%;
+}
+
+#header {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
